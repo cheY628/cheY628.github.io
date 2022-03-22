@@ -1,0 +1,98 @@
+@media(max-width: 1000px) {
+  h2 {
+    font-size: 30px;
+  }
+    
+  header::before {
+    position:absolute;
+    top: -90px;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 160px;
+    background-color: #f9f9f8;
+    transform: skewY(-10deg);
+    z-index: -1;
+  }
+  .main-nav {
+    padding-top: 10px;
+  }
+  .main-nav li {
+    padding: 0;
+  }
+  .che-img {
+    width: 200px;
+    height: 200px;
+  }
+  .name {
+    font-size: 20px;
+    margin: 0;
+  }  
+  .skill1-icon, .skill2-icon, .skill3-icon {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+  }
+  .skill1-icon p, .skill2-icon p, .skill3-icon p {
+    font-size: 16px;
+  }
+  .skill-text br {
+    display: none;
+  }
+}
+
+@media(max-width:670px) {
+  body {
+    font-size: 1rem;
+  }
+  .home-title {
+    font-size: 50px;
+  }
+  .home-subtitle {
+    position: absolute;
+    top: 290px;
+    left: 18%;
+    text-align: left;
+  }
+  .name {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .che-img {
+    display: block;
+    margin: 0 auto;
+  }
+  .intro-text {
+    font-size: 14px;
+  }
+  .intro-text br {
+    display: none;
+  }
+  .main-nav {
+    padding: 10px;
+    margin: 0;
+  }
+  .main-nav li {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .about-container {
+    display: block;
+  }
+  .skill1, .skill2, .skill3 {
+    width: 100%;
+    padding: 20px 5px;
+  }
+  .works-list-item {
+    width: 100%;
+  }
+  .modal-container img {
+    max-height: 550px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-30%, -50%);
+    transform: translate(-30%, -50%);
+  } 
+}
