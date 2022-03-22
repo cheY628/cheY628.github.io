@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="responsive.css" rel="stylesheet" type="text/css" media="screen and (max-width: 1000px)" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+  <meta name="description" content="Portfolio">
+  <title>che's Portfolio</title>
+</head>
+<body>
+  <header><!--ここからヘッダー-->
+    <div class="header-wrapper">
+      <nav>
+        <ul class="main-nav">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header><!--ヘッダー終わり-->
+  <div id="home">
+    <div class="home-wrapper wrapper">
+      <h1 class="home-title">che.y</h1>
+      <p class="home-subtitle">coding, site design,<br> Japanese ⇄ English translating</p>
+    </div>
+  </div>
+  <div id="about">
+    <div class="about-wrapper wrapper">
+      <h2 class="about-title">ABOUT</h2>
+      <div class="about-container">
+        <img src="img/che.y.png" class="che-img">
+        <div class="introduction">
+          <p class="name">Chisako Yamaguchi</p>
+          <p class="intro-text">
+            小学生の頃から英語に興味を持ち、留学や英語教師を経験しました。<br>
+            プログラミングの面白さに気づき、2021年から勉強開始、<br>
+            丁寧な作品制作を心がけて日々修行中です。<br>
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="skills">
+    <div class="skills-wrapper wrapper">
+      <h2 class="skills-title">SKILLS</h2>
+      <ul class="skills-list">
+        <li class="skill1">
+          <div class="skill1-icon"><p>HTML & CSS</p></div>
+          <p class="skill-text">レスポンシブ対応の<br>サイトを制作いたします。</p>
+        </li>
+        <li class="skill2">
+          <div class="skill2-icon"><p>JavaScript / jQuery</p></div>
+          <p class="skill-text">動きのあるサイト制作の<br>対応が可能です。</p>
+        </li>
+        <li class="skill3">
+          <div class="skill3-icon"><p>English</p></div>
+          <p class="skill-text">サイトの英語表記や<br>翻訳業務の依頼も承ります。</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="works">
+    <div class="works-wrapper wrapper">
+      <h2 class="works-title">WORKS</h2>
+      <ul id="works-list">
+        <li class="works-list-item">
+          <a href="#home" class="portfolio"><img src="img/portfolio-img.png" alt=""></a>
+          <p class="work-name">自身のポートフォリオ</p>
+        </li>
+        <li class="works-list-item">
+          <img id="modal-show" src="img/iSara-img.png">
+          <p class="work-name">模写作品「iSara」</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="isara-modal" class="modal">
+    <div class="modal-wrapper wrapper">
+      <div class="close-modal">
+        <i class="fa fa-2x fa-times"></i>
+      </div>
+      <div class="modal-container">
+        <img src="img/iSara-full.png">
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-wrapper wrapper">
+      <div id="contact">
+        <div class="contact-wrapper wrapper">
+          <h2 class="contact-title">CONTACT</h2>
+          <p>ご依頼、ご相談の方は下記ボタンよりご連絡ください。</p>
+          <a href="https://form.run/@che-ym--1645824160">お問合せはこちら</a>
+        </div>
+      </div>
+      <div class="copylight">
+        <p>Copyright &copy; che.y 2022</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
